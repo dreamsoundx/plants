@@ -1,0 +1,39 @@
+/* 
+&display=swap
+&subset=cyrillic-ext
+*/
+@import url('https://fonts.googleapis.com/css?family=Inika:regular,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter:regular,700&display=swap');
+@import '_null';
+
+html {
+  font-size: 16px;
+}
+body {
+  line-height: 1;
+  font-family: 'Inter', sans-serif;
+  color: #636060;
+  background: #fff;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+[class*='__container'] {
+  margin: 0px auto;
+  max-width: 1140px;
+  padding: 0px 15px;
+}
+
+.header {
+}
+.main {
+  flex: 1 1 auto;
+}
+
+.footer {
+}
