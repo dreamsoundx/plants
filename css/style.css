@@ -127,9 +127,9 @@ body {
   }
 }
 .service__item {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 33.333%;
-          flex: 1 1 33.333%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
   padding: 0px 58px;
   min-width: 270px;
   -webkit-transition: all 0.5s ease 0s;
