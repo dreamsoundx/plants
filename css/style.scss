@@ -106,11 +106,15 @@ body {
   // .service__item
 
   &__item {
-    flex: 1 1 33.333%;
+    flex: 0 1 33.333%;
     padding: 0px 58px;
-    min-width: 290px;
+    min-width: 270px;
+    transition: all 0.5s ease 0s;
     @media (max-width: 918.98px) {
       flex: 1 1 50%;
+    }
+    @media (max-width: 568.98px) {
+      flex: 1 1 100%;
     }
     @media (max-width: 768px) {
       padding: 0px 53px;
