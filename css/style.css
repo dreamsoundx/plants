@@ -137,16 +137,16 @@ body {
 }
 @media (max-width: 918.98px) {
   .service__item {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 50%;
-            flex: 1 1 50%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
   }
 }
 @media (max-width: 568.98px) {
   .service__item {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
   }
 }
 @media (max-width: 768px) {
@@ -169,11 +169,6 @@ body {
   overflow: hidden;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-}
-@media (min-width: 1332px) {
-  .item-service {
-    max-width: 330px;
-  }
 }
 .item-service:hover {
   -webkit-box-shadow: 0 16px 24px 0 rgba(38, 38, 38, 0.2), 0 8px 16px 0 rgba(38, 38, 38, 0.24);
