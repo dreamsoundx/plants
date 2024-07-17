@@ -94,6 +94,10 @@ body {
     flex-wrap: wrap;
     margin: 0px -58px;
     row-gap: 55px;
+    @media (max-width: 768px) {
+      margin: 0px -53px;
+      row-gap: 38px;
+    }
   }
 
   // .service__item
@@ -104,6 +108,9 @@ body {
     min-width: 290px;
     @media (max-width: 918.98px) {
       flex: 1 1 50%;
+    }
+    @media (max-width: 768px) {
+      padding: 0px 53px;
     }
   }
 }
@@ -127,6 +134,9 @@ body {
 
   &__image {
     padding: 0px 0px 106.38% 0px;
+    @media (max-width: 768px) {
+      padding: 0px 0px 125% 0px;
+    }
   }
 
   // .item-service__img
@@ -154,6 +164,11 @@ body {
     color: #e06733;
     &:not(:last-child) {
       margin-bottom: 14px;
+    }
+    @media (max-width: 768px) {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
     }
   }
 
